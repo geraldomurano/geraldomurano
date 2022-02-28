@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  width: 100%;
+  min-width: 426px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: gray;
+
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 426px;
+  max-width: 540px;
+  margin:auto;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  padding: 4px 8px;
+  border:1px solid #000;
+  background: #2353bb;
+  color:#fff;
+}
+
+.box {
+  display: inline-block;
+  
+}
+
+#container {
+  margin-left: 10px;
+
+}
+
+/* ---------------------------  max-width: 1024px  ---------------------------- */
+
+@media screen and (max-width: 1024px) {
+
+  body {
+    /* max-width: 1024px; */
+    margin: auto;
+  }
+}
+
+/* ---------------------------  max-width: 768px  ---------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  body {
+    /* max-width: 768px; */
+    margin: auto;
+  }
+}
+
+/* ---------------------------  max-width: 426px  ---------------------------- */
+
+@media screen and (max-width: 426px) {
+
+  body {
+    margin: auto;
+  }
+}

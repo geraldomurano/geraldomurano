@@ -1,0 +1,43 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RCHUELO</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body> 
+        <div id="form1" class="form1">
+        <div class="form1_container">
+        <h2>Dados Pessoais</h2>
+        <form>
+        <label for="Nome">Nome Completo</label><br/>
+        <input id="Nome" type="text" maxlenght="200" required><br>
+        <label for="email">E-mail</label><br/>
+        <input id="email" type="text" maxlenght="200" required><br>
+        <label for="CPF">CPF</label><br/>
+        <input id="cpf" type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required><br>
+        <br>
+        <div id="form2" class="form2">
+            <div class="form2_container"></div>
+            <h1>Cartão de Crédito</h1>
+            <form>
+                <label for="band">Bandeira</label><br>
+                <select name="band" id="band" required>
+                    <option>Master Card</option>
+                    <option>Visa</option>
+                    <option>ELO</option>
+                </select><br>
+                <label for="val">Validade</label><br>
+                <input id="val" type="month" required><br>
+                <label for="cvv">cvv</label><br/>
+                <input id="cvv" type="text" min="3" max="3" required><br><br>
+                <input type="submit" value="Confirmar Pedido">
+            </form>
+            </div>
+        </div>     
+         </Form>
+            </div>
+        </div>
+    </body>
+    </html
